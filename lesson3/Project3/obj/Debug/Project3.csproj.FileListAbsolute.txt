@@ -1,0 +1,6 @@
+D:\Projects\geekbrainscsharp\lesson3\Project3\bin\Debug\Project3.exe.config
+D:\Projects\geekbrainscsharp\lesson3\Project3\bin\Debug\Project3.exe
+D:\Projects\geekbrainscsharp\lesson3\Project3\bin\Debug\Project3.pdb
+D:\Projects\geekbrainscsharp\lesson3\Project3\obj\Debug\Project3.csproj.CoreCompileInputs.cache
+D:\Projects\geekbrainscsharp\lesson3\Project3\obj\Debug\Project3.exe
+D:\Projects\geekbrainscsharp\lesson3\Project3\obj\Debug\Project3.pdb

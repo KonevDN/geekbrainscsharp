@@ -1,0 +1,7 @@
+D:\Projects\geekbrainscsharp\lesson1\bin\Debug\lesson1.exe.config
+D:\Projects\geekbrainscsharp\lesson1\bin\Debug\lesson1.exe
+D:\Projects\geekbrainscsharp\lesson1\bin\Debug\lesson1.pdb
+D:\Projects\geekbrainscsharp\lesson1\obj\Debug\lesson1.csproj.AssemblyReference.cache
+D:\Projects\geekbrainscsharp\lesson1\obj\Debug\lesson1.csproj.CoreCompileInputs.cache
+D:\Projects\geekbrainscsharp\lesson1\obj\Debug\lesson1.exe
+D:\Projects\geekbrainscsharp\lesson1\obj\Debug\lesson1.pdb
