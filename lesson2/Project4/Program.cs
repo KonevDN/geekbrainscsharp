@@ -3,7 +3,6 @@
  * только за место динамических, по вашему мнению, данных (это может быть дата, название магазина, сумма покупок) подставляйте переменные, 
  * которые были заранее заготовлены до вывода на консоль. 
  * Оригинал фотки чека лежит тут https://irecommend.ru/sites/default/files/imagecache/copyright1/user-images/379799/R7zWu5vrnc4T21nQYqLhA.jpg 
- * задано тут  https://docs.google.com/document/d/1qg52591RTgqT4SIg0_oFQYYnvdvusaNJA-g2I0JvOKI/edit#heading=h.u9r7mqts77ja
  */
 
 using System;

@@ -1,6 +1,5 @@
 ﻿/* Практическое задание Project3 для Урока2 
  * Звучит так: Определить, является ли четным число, введённое пользователем. 
- * оно задано тут  https://docs.google.com/document/d/1qg52591RTgqT4SIg0_oFQYYnvdvusaNJA-g2I0JvOKI/edit#heading=h.u9r7mqts77ja
  */
 
 using System;

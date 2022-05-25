@@ -1,0 +1,8 @@
+D:\Projects\geekbrainscsharp\lesson4\Project3\bin\Debug\Project3.exe.config
+D:\Projects\geekbrainscsharp\lesson4\Project3\bin\Debug\Project3.exe
+D:\Projects\geekbrainscsharp\lesson4\Project3\bin\Debug\Project3.pdb
+D:\Projects\geekbrainscsharp\lesson4\Project3\obj\Debug\Project3.csproj.AssemblyReference.cache
+D:\Projects\geekbrainscsharp\lesson4\Project3\obj\Debug\Project3.csproj.CoreCompileInputs.cache
+D:\Projects\geekbrainscsharp\lesson4\Project3\obj\Debug\Project3.exe
+D:\Projects\geekbrainscsharp\lesson4\Project3\obj\Debug\Project3.pdb
+D:\Projects\geekbrainscsharp\lesson4\Project3\obj\Debug\Project3.csproj.SuggestedBindingRedirects.cache
