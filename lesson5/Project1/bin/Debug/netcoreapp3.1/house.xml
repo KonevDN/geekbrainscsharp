@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Building xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Floors>12</Floors>
+  <Entrances>4</Entrances>
+  <IsHeatable>true</IsHeatable>
+  <Address>ул. Мира, 24</Address>
+</Building>
