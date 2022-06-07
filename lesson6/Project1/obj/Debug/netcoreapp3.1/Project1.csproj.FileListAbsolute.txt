@@ -1,0 +1,14 @@
+D:\Projects\geekbrainscsharp\lesson6\Project1\bin\Debug\netcoreapp3.1\Project1.exe
+D:\Projects\geekbrainscsharp\lesson6\Project1\bin\Debug\netcoreapp3.1\Project1.deps.json
+D:\Projects\geekbrainscsharp\lesson6\Project1\bin\Debug\netcoreapp3.1\Project1.runtimeconfig.json
+D:\Projects\geekbrainscsharp\lesson6\Project1\bin\Debug\netcoreapp3.1\Project1.runtimeconfig.dev.json
+D:\Projects\geekbrainscsharp\lesson6\Project1\bin\Debug\netcoreapp3.1\Project1.dll
+D:\Projects\geekbrainscsharp\lesson6\Project1\bin\Debug\netcoreapp3.1\Project1.pdb
+D:\Projects\geekbrainscsharp\lesson6\Project1\obj\Debug\netcoreapp3.1\Project1.csproj.AssemblyReference.cache
+D:\Projects\geekbrainscsharp\lesson6\Project1\obj\Debug\netcoreapp3.1\Project1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\geekbrainscsharp\lesson6\Project1\obj\Debug\netcoreapp3.1\Project1.AssemblyInfoInputs.cache
+D:\Projects\geekbrainscsharp\lesson6\Project1\obj\Debug\netcoreapp3.1\Project1.AssemblyInfo.cs
+D:\Projects\geekbrainscsharp\lesson6\Project1\obj\Debug\netcoreapp3.1\Project1.csproj.CoreCompileInputs.cache
+D:\Projects\geekbrainscsharp\lesson6\Project1\obj\Debug\netcoreapp3.1\Project1.dll
+D:\Projects\geekbrainscsharp\lesson6\Project1\obj\Debug\netcoreapp3.1\Project1.pdb
+D:\Projects\geekbrainscsharp\lesson6\Project1\obj\Debug\netcoreapp3.1\Project1.genruntimeconfig.cache
