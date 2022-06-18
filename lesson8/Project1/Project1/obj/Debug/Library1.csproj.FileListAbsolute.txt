@@ -1,0 +1,2 @@
+D:\Projects\geekbrainscsharp\lesson8\Project1\Project1\obj\Debug\Library1.csproj.AssemblyReference.cache
+D:\Projects\geekbrainscsharp\lesson8\Project1\Project1\obj\Debug\Library1.csproj.CoreCompileInputs.cache

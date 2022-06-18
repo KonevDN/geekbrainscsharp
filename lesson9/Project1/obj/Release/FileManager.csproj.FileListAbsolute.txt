@@ -1,0 +1,19 @@
+D:\Projects\geekbrainscsharp\lesson9\Project1\bin\Release\Fly Manager Console.exe.config
+D:\Projects\geekbrainscsharp\lesson9\Project1\bin\Release\Fly Manager Console.exe
+D:\Projects\geekbrainscsharp\lesson9\Project1\bin\Release\Fly Manager Console.pdb
+D:\Projects\geekbrainscsharp\lesson9\Project1\bin\Release\Library1.dll
+D:\Projects\geekbrainscsharp\lesson9\Project1\bin\Release\Library2.dll
+D:\Projects\geekbrainscsharp\lesson9\Project1\bin\Release\System.Text.Json.dll
+D:\Projects\geekbrainscsharp\lesson9\Project1\bin\Release\System.Memory.dll
+D:\Projects\geekbrainscsharp\lesson9\Project1\bin\Release\System.Text.Encodings.Web.dll
+D:\Projects\geekbrainscsharp\lesson9\Project1\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\geekbrainscsharp\lesson9\Project1\bin\Release\System.Buffers.dll
+D:\Projects\geekbrainscsharp\lesson9\Project1\bin\Release\Library1.pdb
+D:\Projects\geekbrainscsharp\lesson9\Project1\bin\Release\Library2.pdb
+D:\Projects\geekbrainscsharp\lesson9\Project1\obj\Release\FileManager.csproj.AssemblyReference.cache
+D:\Projects\geekbrainscsharp\lesson9\Project1\obj\Release\FileManager.csproj.SuggestedBindingRedirects.cache
+D:\Projects\geekbrainscsharp\lesson9\Project1\obj\Release\Fly Manager Console.exe.config
+D:\Projects\geekbrainscsharp\lesson9\Project1\obj\Release\FileManager.csproj.CoreCompileInputs.cache
+D:\Projects\geekbrainscsharp\lesson9\Project1\obj\Release\FileManager.csproj.CopyComplete
+D:\Projects\geekbrainscsharp\lesson9\Project1\obj\Release\Fly Manager Console.exe
+D:\Projects\geekbrainscsharp\lesson9\Project1\obj\Release\Fly Manager Console.pdb
