@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Окно
+namespace БиблиотекаОкно
 {
-    public static class Графика
+    public static class ГрафикаОкна
     {
         //public static int ШиринаЗоны { get; private set; }
         //public static int ВысотаЗоны { get; private set; }
@@ -21,7 +21,7 @@ namespace Окно
         //    internal const UInt16 ВысотаЗоны = 30;
         //}
 
-        static Графика()
+        static ГрафикаОкна()
         {
             
         }

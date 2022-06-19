@@ -7,8 +7,8 @@
     <ProjectGuid>{3C7D5160-30CD-42EF-BBB1-28B7B7BDB226}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Окно</RootNamespace>
-    <AssemblyName>Окно</AssemblyName>
+    <RootNamespace>БиблиотекаОкно</RootNamespace>
+    <AssemblyName>БиблиотекаОкно</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,9 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Графика.cs" />
-    <Compile Include="Параметры.cs" />
-    <Compile Include="Позиция.cs" />
+    <Compile Include="ГрафикаОкна.cs" />
+    <Compile Include="ПараметрыОкна.cs" />
+    <Compile Include="ПозицияОкна.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Окно
+namespace БиблиотекаОкно
 {
-    public static class Параметры
+    public static class ПараметрыОкна
     {
         private static UInt16 ТочкаСлева = 0;
         private static UInt16 ТочкаСверху = 0;
