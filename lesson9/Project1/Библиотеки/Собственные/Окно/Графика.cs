@@ -23,11 +23,14 @@ namespace Окно
 
         static Графика()
         {
-
-            Console.SetWindowSize(ПрямоугольникЗоны.ШиринаЗоны, ПрямоугольникЗоны.ВысотаЗоны);
-            Console.SetBufferSize(ПрямоугольникЗоны.ШиринаЗоны, ПрямоугольникЗоны.ВысотаЗоны);
+            
         }
 
+        public static void УстановитьРазмерОкна(UInt16 ШиринаОкна, UInt16 ВысотаОкна)
+        {
+            Console.SetWindowSize(ШиринаОкна, ВысотаОкна);
+            Console.SetBufferSize(ШиринаОкна, ВысотаОкна);
+        }
 
         public static void НарисоватьЗону()
         {
