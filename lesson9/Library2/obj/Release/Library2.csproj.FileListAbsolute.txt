@@ -1,6 +1,0 @@
-D:\Projects\geekbrainscsharp\lesson9\Library2\bin\Release\Library2.dll
-D:\Projects\geekbrainscsharp\lesson9\Library2\bin\Release\Library2.pdb
-D:\Projects\geekbrainscsharp\lesson9\Library2\obj\Release\Library2.csproj.AssemblyReference.cache
-D:\Projects\geekbrainscsharp\lesson9\Library2\obj\Release\Library2.csproj.CoreCompileInputs.cache
-D:\Projects\geekbrainscsharp\lesson9\Library2\obj\Release\Library2.dll
-D:\Projects\geekbrainscsharp\lesson9\Library2\obj\Release\Library2.pdb
