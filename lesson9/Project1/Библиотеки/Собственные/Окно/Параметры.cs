@@ -11,19 +11,35 @@ namespace Окно
         private static UInt16 ШиринаОкна = ШиринаЗоны;
         private static UInt16 ВысотаОкна = ВысотаЗоны;
 
-        public static UInt16 СчитатьШиринуЗоны
+        public static UInt16 ВзятьЖелаемуюШиринуЗоны
         {
             get { return ШиринаЗоны; }
         }
 
-        public static UInt16 ИспользоватьШиринуОкна
+        public static UInt16 ВзятьЖелаемуюВысотуЗоны
+        {
+            get { return ВысотаЗоны; }
+        }
+
+        public static UInt16 ВзятьЖелаемуюШиринуОкна
         {
             get { return ШиринаОкна; }
         }
 
-        public static UInt16 ИспользоватьВысотуОкна
+        public static UInt16 ВзятьЖелаемуюВысотуОкна
         {
             get { return ВысотаОкна; }
         }
+
+        public static UInt16 ВзятьЖелаемуюНачальнуюТочкуСлева
+        {
+            get { return ТочкаСлева; }
+        }
+
+        public static UInt16 ВзятьЖелаемуюНачальнуюТочкуСверху
+        {
+            get { return ТочкаСверху; }
+        }
+
     }
 }

@@ -1,4 +1,6 @@
 ﻿using System;
+using Окно;
+
 
 namespace FireManagerConsole
 {
@@ -16,7 +18,7 @@ namespace FireManagerConsole
         {
 
 
-            System.Reflection.Assembly Сборка = System.Reflection.Assembly.GetExecutingAssembly(); // Получим информацию по текущей сборке (библиотеке)
+            System.Reflection.Assembly Сборка = System.Reflection.Assembly.GetExecutingAssembly(); // Получим информацию по текущей сборки
             System.Diagnostics.FileVersionInfo FileManager = System.Diagnostics.FileVersionInfo.GetVersionInfo(Сборка.Location); // Получим информацию по текущей версии сборки
 
 
@@ -28,10 +30,10 @@ namespace FireManagerConsole
             Console.Title = ЗаголовокОкна; 
 #endif
 
-
-            Окно.Графика.УстановитьРазмерОкна(Окно.Параметры.ИспользоватьШиринуОкна, Окно.Параметры.ИспользоватьВысотуОкна); 
+            
+            Окно.Графика.УстановитьРазмерОкна(Окно.Параметры.ВзятьЖелаемуюШиринуОкна, Окно.Параметры.ВзятьЖелаемуюВысотуОкна); 
             Окно.Позиция.ЦентрироватьОкно(ЗаголовокОкна);
-            Окно.Графика.НарисоватьЗону();
+            Окно.Графика.ОтрисоватьЗонуОкна(Окно.Параметры.ВзятьЖелаемуюНачальнуюТочкуСлева, Окно.Параметры.ВзятьЖелаемуюНачальнуюТочкуСверху, Окно.Параметры.ВзятьЖелаемуюШиринуЗоны, Окно.Параметры.ВзятьЖелаемуюВысотуЗоны);
             Console.ReadKey();
             
 
