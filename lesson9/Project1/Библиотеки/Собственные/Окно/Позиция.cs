@@ -30,7 +30,7 @@ namespace Окно
         [return: MarshalAs(UnmanagedType.Bool)]
         public static extern bool GetWindowRect(IntPtr hWnd, out Прямоугольник lpПрямоугольник);
 
-        public static void Центрировать(String ЗаголовокОкна)
+        public static void ЦентрироватьОкно(String ЗаголовокОкна)
         {
             Console.Title = ЗаголовокОкна;
 
@@ -49,10 +49,10 @@ namespace Окно
             /* Окно выше остальных */
             var HWND_TOPMOST = -1;
 
-            var Width = 1800;
-            var Height = Width / 2;
+            var ШиринаМонитора = 1920;
+            var ВысотаМонитора = 1080; 
             /* Установка окна в нужное место */
-            Позиция.SetWindowPos(УказательНаОкно, HWND_TOPMOST, Width / 2 - ШиринаОкна / 2, Height / 2 - ВысотаОкна / 2, 0, 0, SWP_NOSIZE);
+            Позиция.SetWindowPos(УказательНаОкно, HWND_TOPMOST, ШиринаМонитора / 2 - ШиринаОкна / 2, ВысотаМонитора / 2 - ВысотаОкна / 2, 0, 0, SWP_NOSIZE);
         }
     }
 }

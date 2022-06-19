@@ -15,12 +15,5 @@
             </summary>
             <param name="args"></param>
         </member>
-        <member name="M:FireManagerConsole.Приложение.НарисоватьЗону(System.Int32,System.Int32,System.Int32,System.Int32)">
-            <summary>Метод НарисоватьЗону - нарисует прямоугольную зону  внутри консольного окна</summary>
-            <param name="ТочкаСлева"></param>
-            <param name="ТочкаСверху"></param>
-            <param name="ШиринаЗоны"></param>
-            <param name="ВысотаЗоны"></param>
-        </member>
     </members>
 </doc>
