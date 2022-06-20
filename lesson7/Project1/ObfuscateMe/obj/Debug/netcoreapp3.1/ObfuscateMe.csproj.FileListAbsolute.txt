@@ -1,0 +1,14 @@
+D:\Projects\geekbrainscsharp\lesson7\Project1\ObfuscateMe\bin\Debug\netcoreapp3.1\ObfuscateMe.exe
+D:\Projects\geekbrainscsharp\lesson7\Project1\ObfuscateMe\bin\Debug\netcoreapp3.1\ObfuscateMe.deps.json
+D:\Projects\geekbrainscsharp\lesson7\Project1\ObfuscateMe\bin\Debug\netcoreapp3.1\ObfuscateMe.runtimeconfig.json
+D:\Projects\geekbrainscsharp\lesson7\Project1\ObfuscateMe\bin\Debug\netcoreapp3.1\ObfuscateMe.runtimeconfig.dev.json
+D:\Projects\geekbrainscsharp\lesson7\Project1\ObfuscateMe\bin\Debug\netcoreapp3.1\ObfuscateMe.dll
+D:\Projects\geekbrainscsharp\lesson7\Project1\ObfuscateMe\bin\Debug\netcoreapp3.1\ObfuscateMe.pdb
+D:\Projects\geekbrainscsharp\lesson7\Project1\ObfuscateMe\obj\Debug\netcoreapp3.1\ObfuscateMe.csproj.AssemblyReference.cache
+D:\Projects\geekbrainscsharp\lesson7\Project1\ObfuscateMe\obj\Debug\netcoreapp3.1\ObfuscateMe.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\geekbrainscsharp\lesson7\Project1\ObfuscateMe\obj\Debug\netcoreapp3.1\ObfuscateMe.AssemblyInfoInputs.cache
+D:\Projects\geekbrainscsharp\lesson7\Project1\ObfuscateMe\obj\Debug\netcoreapp3.1\ObfuscateMe.AssemblyInfo.cs
+D:\Projects\geekbrainscsharp\lesson7\Project1\ObfuscateMe\obj\Debug\netcoreapp3.1\ObfuscateMe.csproj.CoreCompileInputs.cache
+D:\Projects\geekbrainscsharp\lesson7\Project1\ObfuscateMe\obj\Debug\netcoreapp3.1\ObfuscateMe.dll
+D:\Projects\geekbrainscsharp\lesson7\Project1\ObfuscateMe\obj\Debug\netcoreapp3.1\ObfuscateMe.pdb
+D:\Projects\geekbrainscsharp\lesson7\Project1\ObfuscateMe\obj\Debug\netcoreapp3.1\ObfuscateMe.genruntimeconfig.cache

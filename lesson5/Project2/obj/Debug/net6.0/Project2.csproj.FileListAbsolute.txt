@@ -1,0 +1,15 @@
+D:\Projects\geekbrainscsharp\lesson5\Project2\bin\Debug\net6.0\Project2.exe
+D:\Projects\geekbrainscsharp\lesson5\Project2\bin\Debug\net6.0\Project2.deps.json
+D:\Projects\geekbrainscsharp\lesson5\Project2\bin\Debug\net6.0\Project2.runtimeconfig.json
+D:\Projects\geekbrainscsharp\lesson5\Project2\bin\Debug\net6.0\Project2.dll
+D:\Projects\geekbrainscsharp\lesson5\Project2\bin\Debug\net6.0\Project2.pdb
+D:\Projects\geekbrainscsharp\lesson5\Project2\obj\Debug\net6.0\Project2.csproj.AssemblyReference.cache
+D:\Projects\geekbrainscsharp\lesson5\Project2\obj\Debug\net6.0\Project2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\geekbrainscsharp\lesson5\Project2\obj\Debug\net6.0\Project2.AssemblyInfoInputs.cache
+D:\Projects\geekbrainscsharp\lesson5\Project2\obj\Debug\net6.0\Project2.AssemblyInfo.cs
+D:\Projects\geekbrainscsharp\lesson5\Project2\obj\Debug\net6.0\Project2.csproj.CoreCompileInputs.cache
+D:\Projects\geekbrainscsharp\lesson5\Project2\obj\Debug\net6.0\Project2.dll
+D:\Projects\geekbrainscsharp\lesson5\Project2\obj\Debug\net6.0\refint\Project2.dll
+D:\Projects\geekbrainscsharp\lesson5\Project2\obj\Debug\net6.0\Project2.pdb
+D:\Projects\geekbrainscsharp\lesson5\Project2\obj\Debug\net6.0\Project2.genruntimeconfig.cache
+D:\Projects\geekbrainscsharp\lesson5\Project2\obj\Debug\net6.0\ref\Project2.dll

@@ -1,0 +1,6 @@
+D:\Projects\geekbrainscsharp\lesson9\Project1\Библиотеки\Собственные\Окно\bin\Debug\БиблиотекаОкно.dll
+D:\Projects\geekbrainscsharp\lesson9\Project1\Библиотеки\Собственные\Окно\bin\Debug\БиблиотекаОкно.pdb
+D:\Projects\geekbrainscsharp\lesson9\Project1\Библиотеки\Собственные\Окно\obj\Debug\БиблиотекаОкно.csproj.AssemblyReference.cache
+D:\Projects\geekbrainscsharp\lesson9\Project1\Библиотеки\Собственные\Окно\obj\Debug\БиблиотекаОкно.csproj.CoreCompileInputs.cache
+D:\Projects\geekbrainscsharp\lesson9\Project1\Библиотеки\Собственные\Окно\obj\Debug\БиблиотекаОкно.dll
+D:\Projects\geekbrainscsharp\lesson9\Project1\Библиотеки\Собственные\Окно\obj\Debug\БиблиотекаОкно.pdb

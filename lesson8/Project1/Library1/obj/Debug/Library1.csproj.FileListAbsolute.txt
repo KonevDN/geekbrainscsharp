@@ -1,0 +1,12 @@
+D:\Projects\geekbrainscsharp\lesson8\Project1\ClassLibrary1\bin\Debug\Library1.dll
+D:\Projects\geekbrainscsharp\lesson8\Project1\ClassLibrary1\bin\Debug\Library1.pdb
+D:\Projects\geekbrainscsharp\lesson8\Project1\ClassLibrary1\obj\Debug\Library1.csproj.AssemblyReference.cache
+D:\Projects\geekbrainscsharp\lesson8\Project1\ClassLibrary1\obj\Debug\Library1.csproj.CoreCompileInputs.cache
+D:\Projects\geekbrainscsharp\lesson8\Project1\ClassLibrary1\obj\Debug\Library1.dll
+D:\Projects\geekbrainscsharp\lesson8\Project1\ClassLibrary1\obj\Debug\Library1.pdb
+D:\Projects\geekbrainscsharp\lesson8\Project1\Library1\bin\Debug\Library1.dll
+D:\Projects\geekbrainscsharp\lesson8\Project1\Library1\bin\Debug\Library1.pdb
+D:\Projects\geekbrainscsharp\lesson8\Project1\Library1\obj\Debug\Library1.csproj.AssemblyReference.cache
+D:\Projects\geekbrainscsharp\lesson8\Project1\Library1\obj\Debug\Library1.csproj.CoreCompileInputs.cache
+D:\Projects\geekbrainscsharp\lesson8\Project1\Library1\obj\Debug\Library1.dll
+D:\Projects\geekbrainscsharp\lesson8\Project1\Library1\obj\Debug\Library1.pdb
