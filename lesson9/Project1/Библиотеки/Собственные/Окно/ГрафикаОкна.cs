@@ -4,27 +4,8 @@ namespace БиблиотекаОкно
 {
     public static class ГрафикаОкна
     {
-        //public static int ШиринаЗоны { get; private set; }
-        //public static int ВысотаЗоны { get; private set; }
 
-        /// <summary>Метод ОтрисоватьЗонуОкна - нарисует прямоугольную зону  внутри консольного окна</summary>
-        /// <param name="ТочкаСлева"></param>
-        /// <param name="ТочкаСверху"></param>
-        /// <param name="ШиринаЗоны"></param>
-        /// <param name="ВысотаЗоны"></param>
-        ///
-        //internal struct ПрямоугольникЗоны
-        //{
-        //    internal static UInt16 ТочкаСлева = 0;
-        //    internal const UInt16 ТочкаСверху = 0;
-        //    internal const UInt16 ШиринаЗоны = 120;
-        //    internal const UInt16 ВысотаЗоны = 30;
-        //}
-
-        static ГрафикаОкна()
-        {
-            
-        }
+        static ГрафикаОкна() { }
 
         public static void УстановитьРазмерОкна(UInt16 ШиринаОкна, UInt16 ВысотаОкна)
         {
@@ -51,6 +32,18 @@ namespace БиблиотекаОкно
                 }
                 Console.Write("║");
             }
+
+
+            //подвал
+            Console.Write("╚");
+            for (int НомерСтрокиВнутриЗоны = 0; НомерСтрокиВнутриЗоны < ЖелаемаяШиринаЗоны - 2; НомерСтрокиВнутриЗоны++)
+            {
+                Console.Write("═");
+            }
+            Console.Write("╝");
+
+            
+
 
 
 
