@@ -9,8 +9,8 @@ namespace БиблиотекаОкно
 
         public static void УстановитьРазмерОкна(UInt16 ШиринаОкна, UInt16 ВысотаОкна)
         {
-            Console.SetWindowSize(ШиринаОкна, ВысотаОкна);
-            Console.SetBufferSize(ШиринаОкна, ВысотаОкна);
+            Console.SetWindowSize(ШиринаОкна, ВысотаОкна+10);
+            Console.SetBufferSize(ШиринаОкна, ВысотаОкна+100);
         }
 
         public static void ОтрисоватьЗонуОкна(UInt16 ЖелаемаяНачальнаяТочкаСлева, UInt16 ЖелаемаяНачальнаяТочкаСверху, UInt16 ЖелаемаяШиринаЗоны, UInt16 ЖелаемаяВысотаЗоны)
