@@ -4,16 +4,5 @@
         <name>FireManagerConsole</name>
     </assembly>
     <members>
-        <member name="T:FireManagerConsole.Приложение">
-            <summary>
-            
-            </summary>
-        </member>
-        <member name="M:FireManagerConsole.Приложение.Main(System.String[])">
-            <summary>
-              <br />
-            </summary>
-            <param name="args"></param>
-        </member>
     </members>
 </doc>

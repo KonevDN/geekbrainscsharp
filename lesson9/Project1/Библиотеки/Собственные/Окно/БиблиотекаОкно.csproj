@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ГрафикаОкна.cs" />
+    <Compile Include="ПараметрыЗоны.cs" />
     <Compile Include="ПараметрыОкна.cs" />
     <Compile Include="ПозицияОкна.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
