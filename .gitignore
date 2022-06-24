@@ -410,3 +410,9 @@ FodyWeavers.xsd
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio
 lesson9/Урок 9. Техническое задание на консольный файловый менеджер.pdf
 >>>>>>> Stashed changes
+lesson9/Project1/Библиотеки/Собственные/Окно/obj/Debug/БиблиотекаОкно.pdb
+lesson9/Project1/obj/x64/Debug/FireManagerConsole.pdb
+lesson9/Project1/obj/x64/Debug/FireManagerConsole.csproj.AssemblyReference.cache
+lesson9/Project1/bin/x64/Debug/БиблиотекаОкно.pdb
+lesson9/Project1/bin/x64/Debug/FireManagerConsole.pdb
+lesson9/Project1/.vs/FireManagerConsole/v17/.suo
