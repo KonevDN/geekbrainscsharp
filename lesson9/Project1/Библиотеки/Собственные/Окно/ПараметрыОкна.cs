@@ -4,46 +4,18 @@ namespace БиблиотекаОкно
 {
     public static class ПараметрыОкна
     {
-        private static Int32 ТочкаСлева = 0;
-        private static Int32 ТочкаСверху = 0;
-        private static Int32 ШиринаЗоны1 = 120;
-        
-        private static Int32 ВысотаЗоны2 = 30;
-        private static Int32 ШиринаОкна = ШиринаЗоны1;
-        private static Int32 ВысотаОкна = ПараметрыЗоны.ВысотаЗоны1*5;
-        private static Int32 _ширинаБуфера = ШиринаЗоны1;
-        private static Int32 _высотаБуфера = ПараметрыЗоны.ВысотаЗоны1*5;
-
-        public static Int32 ВзятьЖелаемуюШиринуЗоны1
-        {
-            get { return ШиринаЗоны1; }
-        }
-
+        public static Int32 ВысотаОкна { get; }
+        public static Int32 ШиринаОкна { get; }
         
 
-        public static Int32 ВзятьНастроеннуюШиринуОкна
+
+        static ПараметрыОкна()
         {
-            get { return ШиринаОкна; }
+            ШиринаОкна = 120;
+            ВысотаОкна = 31;
         }
 
-        public static Int32 ВзятьНастроеннуюВысотуОкна
-        {
-            get { return ВысотаОкна; }
-        }
 
-        public static Int32 ВзятьЖелаемуюНачальнуюТочкуСлева
-        {
-            get { return ТочкаСлева; }
-        }
-
-        public static Int32 ВзятьЖелаемуюНачальнуюТочкуСверху
-        {
-            get { return ТочкаСверху; }
-        }
-
-        public static int ШиринаБуфера => _ширинаБуфера;
-
-        public static int ВысотаБуфера => _высотаБуфера;
     }
 
     
