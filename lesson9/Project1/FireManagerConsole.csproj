@@ -137,9 +137,9 @@
       <Project>{3c7d5160-30cd-42ef-bbb1-28b7b7bdb226}</Project>
       <Name>БиблиотекаОкно</Name>
     </ProjectReference>
-    <ProjectReference Include="Библиотеки\Собственные\Операции\Операции.csproj">
+    <ProjectReference Include="Библиотеки\Собственные\Операции\БиблиотекаОперации.csproj">
       <Project>{1664dd0f-a3f0-44fd-97e6-278a03f003d7}</Project>
-      <Name>Операции</Name>
+      <Name>БиблиотекаОперации</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

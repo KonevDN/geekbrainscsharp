@@ -2,13 +2,14 @@
 using System.IO;
 using System.Text;
 using БиблиотекаОкно;
+using БиблиотекаОперации;
 
 
 namespace FireManagerConsole
 {
     internal class Приложение
     {
-        private static String ДиректорияЗапуска = Directory.GetCurrentDirectory();
+        public static String ДиректорияЗапуска = Directory.GetCurrentDirectory();
 
         static void Main(string[] args)
         {
@@ -31,21 +32,60 @@ namespace FireManagerConsole
             ГрафикаОкна.ОтрисоватьЗонуОкна(ПараметрыЗоны.ТочкаСлеваДляЗоны2, ПараметрыЗоны.ТочкаСверхуДляЗоны2, ПараметрыЗоны.ШиринаЗоны2, ПараметрыЗоны.ВысотаЗоны2);
             ГрафикаОкна.ОтрисоватьЗонуОкна(ПараметрыЗоны.ТочкаСлеваДляЗоны3, ПараметрыЗоны.ТочкаСверхуДляЗоны3, ПараметрыЗоны.ШиринаЗоны3, ПараметрыЗоны.ВысотаЗоны3);
 
+
+            
+            
+
             while (true)
             {
-                ЗаполнитьЗонуОкна3();
+                ГрафикаОкна.ЗаполнитьЗонуОкна3(ДиректорияЗапуска);
                 ОбработатьВведеннуюКоманду(ПараметрыЗоны.ШиринаЗоны3);
             }
             
 
 
-
+            // урок 9 1:44
 
 
 
         }
 
-       
+
+        static void GetTree(StringBuilder tree, DirectoryInfo dir, string indent, bool lastDirectory)
+        {
+            tree.Append(indent);
+            if (lastDirectory)
+            {
+                tree.Append("└─");
+                indent += "  ";
+            }
+            else
+            {
+                tree.Append("├─");
+                indent += "│ ";
+            }
+
+            tree.Append($"{dir.Name}\n");
+
+
+            FileInfo[] subFiles = dir.GetFiles();
+            for (int i = 0; i < subFiles.Length; i++)
+            {
+                if (i == subFiles.Length - 1)
+                {
+                    tree.Append($"{indent}└─{subFiles[i].Name}\n");
+                }
+                else
+                {
+                    tree.Append($"{indent}├─{subFiles[i].Name}\n");
+                }
+            }
+
+
+            DirectoryInfo[] subDirects = dir.GetDirectories();
+            for (int i = 0; i < subDirects.Length; i++)
+                GetTree(tree, subDirects[i], indent, i == subDirects.Length - 1);
+        }
 
         static void ОбработатьВведеннуюКоманду(Int32 ДопустимаяДлинаСтроки)
         {
@@ -95,12 +135,10 @@ namespace FireManagerConsole
 
             РазобратьВведеннуюКоманду(ВведеннаяКоманда.ToString()); 
         }
-
         static (Int32 Слева, Int32 Справа) ВзятьТекущиеКоординатыКурсора()
         {
             return (Console.CursorLeft, Console.CursorTop);
         }
-
         private static void РазобратьВведеннуюКоманду(String ВведеннаяКоманда)
         {
             String[] ПараметрыВведеннойКоманды = ВведеннаяКоманда.ToLower().Split(' ');
@@ -121,17 +159,12 @@ namespace FireManagerConsole
             }
             //ОбработатьВведеннуюКоманду(ПараметрыЗоны.ШиринаЗоны3);
         }
-
-
-
-
-
-        static void ЗаполнитьЗонуОкна3()
-        {
-            ГрафикаОкна.ОтрисоватьЗонуОкна(ПараметрыЗоны.ТочкаСлеваДляЗоны3, ПараметрыЗоны.ТочкаСверхуДляЗоны3, ПараметрыЗоны.ШиринаЗоны3, ПараметрыЗоны.ВысотаЗоны3);
-            Console.SetCursorPosition(ПараметрыЗоны.ТочкаСлеваДляЗоны3+1, ПараметрыЗоны.ТочкаСверхуДляЗоны3+ПараметрыЗоны.ВысотаЗоны3/2);
-            Console.Write(ДиректорияЗапуска+ " ► "); 
-        }
+        //static void ЗаполнитьЗонуОкна3()
+        //{
+        //    ГрафикаОкна.ОтрисоватьЗонуОкна(ПараметрыЗоны.ТочкаСлеваДляЗоны3, ПараметрыЗоны.ТочкаСверхуДляЗоны3, ПараметрыЗоны.ШиринаЗоны3, ПараметрыЗоны.ВысотаЗоны3);
+        //    Console.SetCursorPosition(ПараметрыЗоны.ТочкаСлеваДляЗоны3+1, ПараметрыЗоны.ТочкаСверхуДляЗоны3+ПараметрыЗоны.ВысотаЗоны3/2);
+        //    Console.Write(ДиректорияЗапуска+ " ► "); 
+        //}
 
         
 
