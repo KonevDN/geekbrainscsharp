@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("FireManagerConsole")]
 [assembly: AssemblyDescription("Консольный файл менеджер FireManagerConsole")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("KONEF PRODUCTION STUDIO LTD")]
+[assembly: AssemblyCompany("KONEF SOFTWARE STUDIO LTD")]
 [assembly: AssemblyProduct("FireManagerConsole")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("KONEF PRODUCTION TM")]
