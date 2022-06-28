@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "БиблиотекаОкн�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "БиблиотекаОперации", "Библиотеки\Собственные\Операции\БиблиотекаОперации.csproj", "{1664DD0F-A3F0-44FD-97E6-278A03F003D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "БиблиотекаПаспорт", "..\БиблиотекаПаспорт\БиблиотекаПаспорт.csproj", "{CC4338F5-AE25-4125-AE42-038E8095AC3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,6 +62,18 @@ Global
 		{1664DD0F-A3F0-44FD-97E6-278A03F003D7}.Release|x64.Build.0 = Release|Any CPU
 		{1664DD0F-A3F0-44FD-97E6-278A03F003D7}.Release|x86.ActiveCfg = Release|Any CPU
 		{1664DD0F-A3F0-44FD-97E6-278A03F003D7}.Release|x86.Build.0 = Release|Any CPU
+		{CC4338F5-AE25-4125-AE42-038E8095AC3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4338F5-AE25-4125-AE42-038E8095AC3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4338F5-AE25-4125-AE42-038E8095AC3E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CC4338F5-AE25-4125-AE42-038E8095AC3E}.Debug|x64.Build.0 = Debug|Any CPU
+		{CC4338F5-AE25-4125-AE42-038E8095AC3E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CC4338F5-AE25-4125-AE42-038E8095AC3E}.Debug|x86.Build.0 = Debug|Any CPU
+		{CC4338F5-AE25-4125-AE42-038E8095AC3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4338F5-AE25-4125-AE42-038E8095AC3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4338F5-AE25-4125-AE42-038E8095AC3E}.Release|x64.ActiveCfg = Release|Any CPU
+		{CC4338F5-AE25-4125-AE42-038E8095AC3E}.Release|x64.Build.0 = Release|Any CPU
+		{CC4338F5-AE25-4125-AE42-038E8095AC3E}.Release|x86.ActiveCfg = Release|Any CPU
+		{CC4338F5-AE25-4125-AE42-038E8095AC3E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

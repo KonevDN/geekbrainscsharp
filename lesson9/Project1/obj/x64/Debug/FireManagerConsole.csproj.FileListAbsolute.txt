@@ -18,3 +18,5 @@ D:\Projects\geekbrainscsharp\lesson9\Project1\bin\x64\Debug\Библиотека
 D:\Projects\geekbrainscsharp\lesson9\Project1\bin\x64\Debug\БиблиотекаОкно.pdb
 D:\Projects\geekbrainscsharp\lesson9\Project1\bin\x64\Debug\БиблиотекаОперации.dll
 D:\Projects\geekbrainscsharp\lesson9\Project1\bin\x64\Debug\БиблиотекаОперации.pdb
+D:\Projects\geekbrainscsharp\lesson9\Project1\bin\x64\Debug\БиблиотекаПаспорт.dll
+D:\Projects\geekbrainscsharp\lesson9\Project1\bin\x64\Debug\БиблиотекаПаспорт.pdb

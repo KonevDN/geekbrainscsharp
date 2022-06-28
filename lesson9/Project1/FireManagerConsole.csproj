@@ -102,7 +102,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Паспорт.cs" />
     <Compile Include="Приложение.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
@@ -133,6 +132,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\БиблиотекаПаспорт\БиблиотекаПаспорт.csproj">
+      <Project>{cc4338f5-ae25-4125-ae42-038e8095ac3e}</Project>
+      <Name>БиблиотекаПаспорт</Name>
+    </ProjectReference>
     <ProjectReference Include="Библиотеки\Собственные\Окно\БиблиотекаОкно.csproj">
       <Project>{3c7d5160-30cd-42ef-bbb1-28b7b7bdb226}</Project>
       <Name>БиблиотекаОкно</Name>
