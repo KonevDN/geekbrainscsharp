@@ -10,12 +10,8 @@ namespace FireManagerConsole
 {
     public static class Приложение
     {
-        //public static String ДиректорияЗапуска;
-        
-
         static void Main(string[] args)
         {
-            //ДиректорияЗапуска = ПаспортПриложения.ДиректорияЗапуска; 
             System.Reflection.Assembly Сборка = System.Reflection.Assembly.GetExecutingAssembly(); // Получим информацию по текущей сборки
             System.Diagnostics.FileVersionInfo FileManager = System.Diagnostics.FileVersionInfo.GetVersionInfo(Сборка.Location); // Получим информацию по текущей версии сборки
 
@@ -36,22 +32,13 @@ namespace FireManagerConsole
             ГрафикаОкна.ОтрисоватьЗонуОкна(ПараметрыЗоны.ТочкаСлеваДляЗоны2, ПараметрыЗоны.ТочкаСверхуДляЗоны2, ПараметрыЗоны.ШиринаЗоны2, ПараметрыЗоны.ВысотаЗоны2);
             ГрафикаОкна.ОтрисоватьЗонуОкна(ПараметрыЗоны.ТочкаСлеваДляЗоны3, ПараметрыЗоны.ТочкаСверхуДляЗоны3, ПараметрыЗоны.ШиринаЗоны3, ПараметрыЗоны.ВысотаЗоны3);
 
-
-            
-            
-
             while (true)
             {
                 ГрафикаОкна.ЗаполнитьЗонуОкна3(ПаспортПриложения.ДиректорияЗапуска);
                 ОбработкаСтрокиВвода.ОбработатьВводПользователя(ПараметрыЗоны.ШиринаЗоны3);
             }
             
-
-
             // урок 9 1:44
-
-
-
         }
 
 
@@ -92,7 +79,6 @@ namespace FireManagerConsole
         }
 
         
-
 
     }
 }
