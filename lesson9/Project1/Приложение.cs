@@ -16,9 +16,7 @@ namespace FireManagerConsole
             System.Diagnostics.FileVersionInfo FileManager = System.Diagnostics.FileVersionInfo.GetVersionInfo(Сборка.Location); // Получим информацию по текущей версии сборки
 
 #if DEBUG
-            String ЗаголовокОкна = $"{FileManager.FileDescription} " +
-                                   $"" +
-                                   $"{FileManager.FileVersion} {"[DEBUG]"} by {FileManager.CompanyName} © 06/2022";
+            String ЗаголовокОкна = $"{FileManager.FileDescription} " + $"" + $"{FileManager.FileVersion} {"[DEBUG]"} by {FileManager.CompanyName} © 06/2022";
             Console.Title = ЗаголовокОкна;
 #else
             String ЗаголовокОкна = $"{FileManager.FileDescription} {FileManager.FileVersion} by {FileManager.CompanyName}" ;
@@ -41,6 +39,34 @@ namespace FireManagerConsole
             // урок 9 1:44
         }
 
+        /*
+        static void DrawTree(DirectoryInfo dir, int page)
+        {
+            StringBuilder tree = new StringBuilder();
+            GetTree(tree, dir, "", true);
+            DrawWindow(0, 0, WINDOW_WIDTH, 18);
+            (int currentLeft, int currentTop) = GetCursorPosition();
+            int pageLines = 16;
+            string[] lines = tree.ToString().Split('\n');
+            int pageTotal = (lines.Length + pageLines - 1) / pageLines;
+            if (page > pageTotal)
+                page = pageTotal;
+
+            for (int i = (page - 1) * pageLines, counter = 0; i < page * pageLines; i++, counter++)
+            {
+                if (lines.Length - 1 > i)
+                {
+                    Console.SetCursorPosition(currentLeft + 1, currentTop + 1 + counter);
+                    Console.WriteLine(lines[i]);
+                }
+            }
+
+            // Отрисуем footer
+            string footer = $"╡ {page} of {pageTotal} ╞";
+            Console.SetCursorPosition(WINDOW_WIDTH / 2 - footer.Length / 2, 17);
+            Console.WriteLine(footer);
+
+        }
 
         static void GetTree(StringBuilder tree, DirectoryInfo dir, string indent, bool lastDirectory)
         {
@@ -77,7 +103,7 @@ namespace FireManagerConsole
             for (int i = 0; i < subDirects.Length; i++)
                 GetTree(tree, subDirects[i], indent, i == subDirects.Length - 1);
         }
-
+        */
         
 
     }
