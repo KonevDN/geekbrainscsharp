@@ -7,26 +7,10 @@ namespace Project4
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
-
-            // Directory, File, FileInfo, DirectoryInfo
-
+  
             DirectoryInfo directoryInfo = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory);
-
-            ////Console.WriteLine("FullName: {0}", directoryInfo.FullName);
-            //Console.WriteLine($"Полный адрес каталога: {directoryInfo.FullName}");
-            //Console.WriteLine("Name: {0}", directoryInfo.Name);
-            //Console.WriteLine("Parent: {0}", directoryInfo.Parent);
-            //Console.WriteLine("Creation: {0}", directoryInfo.CreationTime);
-            //Console.WriteLine("Attributes: {0}", directoryInfo.Attributes.ToString());
-            //Console.WriteLine("Root: {0}", directoryInfo.Root);
-
-            //Console.WriteLine();
-
-            Console.WriteLine($"Родитель: {directoryInfo.Parent}"); 
+            Console.WriteLine($"Директория: {directoryInfo.Parent}"); 
             РаспечататьСписокКаталогов(new DirectoryInfo(directoryInfo.FullName), "", true);
-
-
             Console.ReadKey(true);
         }
 
@@ -55,7 +39,7 @@ namespace Project4
             for (Int32 index = 0; index < СписокФайлов.Length; index++)
             {
                 Console.Write(ОтступВСтрокеФайла);
-                Console.WriteLine("Файл: " + СписокФайлов[index].Name);
+                Console.WriteLine($"Файл: { СписокФайлов[index].Name}    {string.Format("{0:f2}", (double)СписокФайлов[index].Length / 1024)} кБ" );
             }
         }
 

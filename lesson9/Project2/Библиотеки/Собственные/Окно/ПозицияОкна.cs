@@ -1,0 +1,59 @@
+﻿using System;
+using System.Runtime.InteropServices;
+
+namespace БиблиотекаОкно
+{
+    public static class ПозицияОкна
+    {
+        private static int x;
+
+        [StructLayout(LayoutKind.Sequential)]
+        public struct Прямоугольник
+        {
+            public int ЛеваяТочка;
+            public int ВерхняяТочка;
+            public int ПраваяТочка;
+            public int НижняяТочка;
+        }
+
+
+        /* Возвращает хэндл (указатель) нашего окна IntPtr hWnd*/
+        [DllImport("User32.dll", SetLastError = true)]
+        public static extern IntPtr FindWindow(string lpClassName, string lpWindowName);
+
+        /* Устанавливаем окно по его указателю в нужное место */
+        [DllImport("user32.dll", EntryPoint = "SetWindowPos")]
+        public static extern IntPtr SetWindowPos(IntPtr hWnd, int hWndInsertAfter, int x, int Y, int cx, int cy, int wFlags);
+
+        /* Получаем крайние точки окна */
+        [DllImport("user32.dll")]
+        [return: MarshalAs(UnmanagedType.Bool)]
+        public static extern bool GetWindowRect(IntPtr hWnd, out Прямоугольник lpПрямоугольник);
+
+        public static void ЦентрироватьОкно(String ЗаголовокОкна)
+        {
+            Console.Title = ЗаголовокОкна;
+
+            /* Получить указатель на окно приложения */
+            var УказательНаОкно = ПозицияОкна.FindWindow(null, Console.Title);
+            
+            var ПрямоугольникОкна = new ПозицияОкна.Прямоугольник();
+
+            /* Получить  размеры окна приложения */
+            ПозицияОкна.GetWindowRect(УказательНаОкно, out ПрямоугольникОкна);
+            var ШиринаОкна = ПрямоугольникОкна.ПраваяТочка - ПрямоугольникОкна.ЛеваяТочка;
+            var ВысотаОкна = ПрямоугольникОкна.НижняяТочка - ПрямоугольникОкна.ВерхняяТочка;
+
+            /* Флаг - означает что при установке позиции окна размер не менялся */
+            var SWP_NOSIZE = 0x1;
+
+            /* Окно выше остальных */
+            var HWND_TOPMOST = -1;
+
+            var ШиринаМонитора = 1920;
+            var ВысотаМонитора = 1080; 
+            /* Установка окна в нужное место */
+            ПозицияОкна.SetWindowPos(УказательНаОкно, HWND_TOPMOST, ШиринаМонитора / 2 - ШиринаОкна / 2, ВысотаМонитора / 2 - ВысотаОкна / 2, 0, 0, SWP_NOSIZE);
+        }
+    }
+}

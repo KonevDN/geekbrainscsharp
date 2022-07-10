@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1664DD0F-A3F0-44FD-97E6-278A03F003D7}</ProjectGuid>
+    <ProjectGuid>{3C7D5160-30CD-42EF-BBB1-28B7B7BDB226}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>БиблиотекаОперации</RootNamespace>
-    <AssemblyName>БиблиотекаОперации</AssemblyName>
+    <RootNamespace>БиблиотекаОкно</RootNamespace>
+    <AssemblyName>БиблиотекаОкно</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,19 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ОбработкаСтрокиВвода.cs" />
-    <Compile Include="ОбработкаКомандПользователя.cs" />
+    <Compile Include="ГрафикаОкна.cs" />
+    <Compile Include="ПараметрыЗоны.cs" />
+    <Compile Include="ПараметрыОкна.cs" />
+    <Compile Include="ПозицияОкна.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\БиблиотекаПаспорт\БиблиотекаПриложение.csproj">
-      <Project>{cc4338f5-ae25-4125-ae42-038e8095ac3e}</Project>
-      <Name>БиблиотекаПриложение</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Окно\БиблиотекаОкно.csproj">
-      <Project>{3C7D5160-30CD-42EF-BBB1-28B7B7BDB226}</Project>
-      <Name>БиблиотекаОкно</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
