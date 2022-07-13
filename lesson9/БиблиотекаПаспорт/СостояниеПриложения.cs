@@ -1,7 +1,10 @@
-﻿namespace БиблиотекаПаспорт
+﻿using System;
+using System.IO;
+
+namespace БиблиотекаПаспорт
 {
-    public class СостояниеПриложения
-    {
+
+
+
         
-    }
 }
