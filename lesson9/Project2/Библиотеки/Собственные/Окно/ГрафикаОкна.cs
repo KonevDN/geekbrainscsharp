@@ -156,17 +156,17 @@ namespace БиблиотекаОкно
 
             ДеревоКаталогов.Append($"Каталог {ТекущаяДиректория.Name}\n");
 
-            //        Console.WriteLine($"Файл: {СписокФайлов[index].Name}    {string.Format("{0:f2}", (double)СписокФайлов[index].Length / 1024)} кБ");
+            
             FileInfo[] subFiles = ТекущаяДиректория.GetFiles();
             for (int i = 0; i < subFiles.Length; i++)
             {
                 if (i == subFiles.Length - 1)
                 {
-                    ДеревоКаталогов.Append($"{Отступ}└─ Файл {subFiles[i].Name + '\t' + subFiles[i].Length}\n");
+                    ДеревоКаталогов.Append($"{Отступ}└─ Файл {subFiles[i].Name + '\t'} {string.Format("{0:f2}", (double)subFiles[i].Length / 1024)} кБ \n");
                 }
                 else
                 {
-                    ДеревоКаталогов.Append($"{Отступ}├─ Файл {subFiles[i].Name + '\t' + subFiles[i].Length}\n"); 
+                    ДеревоКаталогов.Append($"{Отступ}├─ Файл {subFiles[i].Name + '\t'} {string.Format("{0:f2}", (double)subFiles[i].Length / 1024)} кБ \n"); 
                 }
             }
 
