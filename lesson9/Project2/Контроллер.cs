@@ -3,7 +3,7 @@ using System.IO;
 using System.Text;
 using БиблиотекаОкно;
 using БиблиотекаОперации;
-using БиблиотекаПаспорт;
+using БиблиотекаПриложение;
 
 
 namespace FireManagerConsole
@@ -35,7 +35,7 @@ namespace FireManagerConsole
 
             Console.SetCursorPosition(ПараметрыЗоны.ТочкаСлеваДляЗоны1 + 2, ПараметрыЗоны.ТочкаСверхуДляЗоны1 + 1);
             DirectoryInfo directoryInfo = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory);
-            Console.WriteLine($"Каталог: {directoryInfo.Name}");
+            //Console.WriteLine($"Каталог: {directoryInfo.Name}");
             Console.SetCursorPosition(ПараметрыЗоны.ТочкаСлеваДляЗоны1 + 0, ПараметрыЗоны.ТочкаСверхуДляЗоны1 + 3);
             //РаспечататьСписокКаталогов(new DirectoryInfo(directoryInfo.FullName), "", true);
             ГрафикаОкна.DrawTree(new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory), 1);
@@ -43,10 +43,12 @@ namespace FireManagerConsole
             while (true)
             {
                 //ГрафикаОкна.ОтрисоватьЗонуОкна(ПараметрыЗоны.ТочкаСлеваДляЗоны1, ПараметрыЗоны.ТочкаСверхуДляЗоны1, ПараметрыЗоны.ШиринаЗоны1, ПараметрыЗоны.ВысотаЗоны1);
-                
 
-                Console.SetCursorPosition(ПараметрыЗоны.ТочкаСлеваДляЗоны1 + ПараметрыОкна.ШиринаОкна/2 -6, ПараметрыЗоны.ТочкаСверхуДляЗоны1 + 48);
-                Console.WriteLine($"Стр.: 1 из {ПараметрыОкна.СколькоСтраницТребуетсяДляДерева}");
+                Int32 ЗапрошеннаяСтраница =1;
+                if (СостояниеПриложения.ЗапрошеннаяСтраница > 1) ЗапрошеннаяСтраница = СостояниеПриложения.ЗапрошеннаяСтраница;
+
+                Console.SetCursorPosition(ПараметрыЗоны.ТочкаСлеваДляЗоны1 + ПараметрыОкна.ШиринаОкна/2 -6, ПараметрыЗоны.ТочкаСверхуДляЗоны1 + 38);
+                Console.WriteLine($"Стр.: {ЗапрошеннаяСтраница} из {ПараметрыОкна.СколькоСтраницТребуетсяДляДерева}");
 
                 if (ПаспортПриложения.ДиректорияВведеннаяПользователем == "ЕщеНеБылаВведена")
                 {
