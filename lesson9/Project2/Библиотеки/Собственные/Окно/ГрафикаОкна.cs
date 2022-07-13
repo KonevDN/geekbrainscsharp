@@ -114,7 +114,9 @@ namespace БиблиотекаОкно
                 if (ВсеСтрокиИзДерева.Length - 1 > НомерЦикла)
                 {
                     Console.SetCursorPosition(currentLeft + 1, currentTop + 0 + СчетчикОтступаПоВысоте);
-                    Console.WriteLine(ВсеСтрокиИзДерева[НомерЦикла]);
+                    String ОднаСтрокаИзДерева;
+                    Console.WriteLine( ОднаСтрокаИзДерева = ВсеСтрокиИзДерева[НомерЦикла]);
+                    
                 }
 
                 if (НомерЦикла == КоличествоСтрокВЗонеВывода - 1)
@@ -152,19 +154,19 @@ namespace БиблиотекаОкно
                 Отступ += "│ ";
             }
 
-            ДеревоКаталогов.Append($"{ТекущаяДиректория.Name}\n");
+            ДеревоКаталогов.Append($"Каталог {ТекущаяДиректория.Name}\n");
 
-
+            //        Console.WriteLine($"Файл: {СписокФайлов[index].Name}    {string.Format("{0:f2}", (double)СписокФайлов[index].Length / 1024)} кБ");
             FileInfo[] subFiles = ТекущаяДиректория.GetFiles();
             for (int i = 0; i < subFiles.Length; i++)
             {
                 if (i == subFiles.Length - 1)
                 {
-                    ДеревоКаталогов.Append($"{Отступ}└─{subFiles[i].Name}\n");
+                    ДеревоКаталогов.Append($"{Отступ}└─ Файл {subFiles[i].Name + '\t' + subFiles[i].Length}\n");
                 }
                 else
                 {
-                    ДеревоКаталогов.Append($"{Отступ}├─{subFiles[i].Name}\n");
+                    ДеревоКаталогов.Append($"{Отступ}├─ Файл {subFiles[i].Name + '\t' + subFiles[i].Length}\n"); 
                 }
             }
 
