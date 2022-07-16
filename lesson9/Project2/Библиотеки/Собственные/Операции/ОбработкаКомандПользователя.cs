@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.IO;
 using БиблиотекаОкно;
 using БиблиотекаПриложение;
@@ -42,6 +43,35 @@ namespace БиблиотекаОперации
 
                         }
                         break;
+
+                    case "dfl":
+                        if (ПараметрыВведеннойКоманды.Length == 2 && File.Exists(ПараметрыВведеннойКоманды[1]))
+                        {
+                            File.Delete(ПараметрыВведеннойКоманды[1]);
+
+                        }
+                        break;
+
+                    case "dfr":
+                        if (ПараметрыВведеннойКоманды.Length == 2 && Directory.Exists(ПараметрыВведеннойКоманды[1]))
+                        {
+                            //Directory.Delete(ПараметрыВведеннойКоманды[1]);
+                            String[] Вхождение = Directory.GetFileSystemEntries(ПараметрыВведеннойКоманды[1], "*", SearchOption.AllDirectories);
+                            for (Int32 index = 0; index < Вхождение.Length; index++)
+                            {
+                                if (File.Exists(Вхождение[index]))
+                                {
+                                    File.Delete(Вхождение[index]); 
+                                }
+                            }
+
+
+
+                        }
+                        break;
+
+                        //Console.WriteLine(File.Exists(@"D:\Projects\geekbrainscsharp\lesson9\Project2\bin\x64\Debug\FireManagerConsole.exe"));
+                        //File.Delete(@"D:\del\PTC.Mathcad.V15.M050.Eng\setup.exe");
                 }
             }
         }

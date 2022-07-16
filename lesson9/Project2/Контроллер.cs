@@ -40,6 +40,8 @@ namespace FireManagerConsole
             //РаспечататьСписокКаталогов(new DirectoryInfo(directoryInfo.FullName), "", true);
             ГрафикаОкна.DrawTree(new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory), 1);
 
+            
+
             while (true)
             {
                 //ГрафикаОкна.ОтрисоватьЗонуОкна(ПараметрыЗоны.ТочкаСлеваДляЗоны1, ПараметрыЗоны.ТочкаСверхуДляЗоны1, ПараметрыЗоны.ШиринаЗоны1, ПараметрыЗоны.ВысотаЗоны1);
