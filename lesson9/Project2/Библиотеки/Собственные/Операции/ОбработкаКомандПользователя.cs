@@ -65,6 +65,19 @@ namespace БиблиотекаОперации
                                 }
                             }
 
+                            Вхождение = Directory.GetFileSystemEntries(ПараметрыВведеннойКоманды[1], "*", SearchOption.AllDirectories);
+                            for (Int32 index = 0; index < Вхождение.Length; index++)
+                            {
+                                if (Directory.Exists(Вхождение[index]))
+                                {
+                                    Directory.Delete(Вхождение[index], true);
+                                }
+                            }
+
+                            if (Directory.Exists(ПараметрыВведеннойКоманды[1]))
+                            {
+                                Directory.Delete(ПараметрыВведеннойКоманды[1]);
+                            }
 
 
                         }
